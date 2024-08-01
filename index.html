@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AdaTube</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="C:\Users\Hp\Desktop\AdaTube\adatube-logo-icon.png" type="image/icon type">
+</head>
+<body>
+    <div class="header">
+        <div class="left-section">
+            <img id="hamburIcon" class="hamburger-menu" src="https://raw.githubusercontent.com/LarithuS/AdaTube/5b086c9378ad25d747d37b31f763a922c67fd5c4/Header/hamburger-menu.svg">
+            <img class="youtube-logo" src="https://raw.githubusercontent.com/LarithuS/AdaTube/5b086c9378ad25d747d37b31f763a922c67fd5c4/Header/adatube-logo6-g.svg">
+        </div>
+        <div class="middle-section">
+            <input type="text" id="searchInput" class="searchbox" placeholder="Search">
+            <button class="search-button"><img class="search-icon" src="https://raw.githubusercontent.com/LarithuS/AdaTube/5b086c9378ad25d747d37b31f763a922c67fd5c4/Header/search.svg"><div class="tooltip">Search</div></button>
+            <button class="voice-search-button"><img class="voice-search-icon" src="https://raw.githubusercontent.com/LarithuS/AdaTube/5b086c9378ad25d747d37b31f763a922c67fd5c4/Header/voice-search-icon.svg"><div class="tooltip">Search with your voice</div></button>
+        </div>
+        <div class="right-section">
+            <div class="upload"><img class="upload-icon" src="https://raw.githubusercontent.com/LarithuS/AdaTube/5b086c9378ad25d747d37b31f763a922c67fd5c4/Header/upload.svg"><div class="tooltip">Upload</div></div>
+            <div class="notifications"><img class="notifications-icon" src="https://raw.githubusercontent.com/LarithuS/AdaTube/5b086c9378ad25d747d37b31f763a922c67fd5c4/Header/notifications.svg"><div class="tooltip">Notifications</div><div class="notification-count">4</div></div>
+            <img class="current-user-picture" src="https://raw.githubusercontent.com/LarithuS/AdaTube/master/channels/LarithuS.jpg">
+        </div>
+    </div>
+    <div id="sideBar" class="sidebar">
+        <div class="sidebar-link asideIcons"><img src="https://raw.githubusercontent.com/LarithuS/AdaTube/5b086c9378ad25d747d37b31f763a922c67fd5c4/sidebar/home.svg"><div>Home</div></div>
+        <div class="sidebar-link asideIcons"><img src="https://raw.githubusercontent.com/LarithuS/AdaTube/5b086c9378ad25d747d37b31f763a922c67fd5c4/sidebar/shorts.svg"><div>Shorts</div></div>
+        <div class="sidebar-link asideIcons"><img src="https://raw.githubusercontent.com/LarithuS/AdaTube/5b086c9378ad25d747d37b31f763a922c67fd5c4/sidebar/subscriptions.svg"><div>Subscriptions</div></div>
+        <div class="sidebar-link asideIcons"><img src="https://raw.githubusercontent.com/LarithuS/AdaTube/5b086c9378ad25d747d37b31f763a922c67fd5c4/sidebar/library.svg"><div>Library</div></div>
+    </div>
+
+    <main>
+        <div id="data" class="video-grid"></div>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
